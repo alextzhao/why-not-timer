@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Alex's Pomodoro Timer</title>
+        <link rel="stylesheet" href="timer.css">
+    </head>
+
+    <body>
+        <h1> Timer </h1>
+        <input id="initial-time"></input>
+        <div class="timer">
+            <div class="timer-time-remaining">
+                <p class="time-num" id="hh">00</p><p>h</p>
+                <p class="time-num" id="mm">00</p><p>m</p>
+                <p class="time-num" id="ss">00</p><p>s</p>
+            </div>
+            <p>(Seconds Remaining: <span id="time-rem-in-seconds">0</span> )</p>
+
+            <div class="timer-controls">
+                <button onclick="toggleTimer();" id="toggleTimer-button"> Start </button>
+                <button onclick="resetTimer();"> Reset </button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./timer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+.timer-time-remaining p {
+    display: inline-block;
+}
+
+.time-num {
+    color: red;
+    font-size: 200%
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px
+}
+
+body {
+    text-align: center;
+}
